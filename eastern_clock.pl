@@ -9,7 +9,7 @@ use Config::Tiny;
 use Getopt::Mini;
 
 use Readonly;
-Readonly my $TIME_ZONE => 'local';
+Readonly my $TIME_ZONE => 'US/Eastern';
 
 my $config_file = $ARGV{ config } or die "Usage: $0 --config=path/to/config.file\n";
 my $twitter_config = Config::Tiny->read( $config_file )
