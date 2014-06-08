@@ -1,0 +1,4 @@
+consumer_key        = YourApiKey
+consumer_secret     = YourApiSecret
+access_token        = AccountAccessToken
+access_token_secret = AccountAccessTokenSecret
