@@ -20,8 +20,13 @@ This script requires Perl, as well as the following Perl modules, all of which m
 * [DateTime::Moonpig](https://metacpan.org/pod/DateTime::Moonpig)
 * [Config::Tiny](https://metacpan.org/pod/Config::Tiny)
 * [Getopt::Mini](https://metacpan.org/pod/Getopt::Mini)
+* [Readonly](https://metacpan.org/pod/Readonly)
 
-You’ll also need a set of valid Twitter API keys and access tokens to plug into the config file.
+You’ll also need a set of valid Twitter API keys and access tokens to plug into the config file. The script requires write-access to the account whose tokens you hand it. 
+
+## A word of caution
+
+Since the script deletes as many as 20 tweets from the account to which it has access every time it's run, you probably don't want to give it tokens for your personal Twitter account.
 
 ## Credits
 
