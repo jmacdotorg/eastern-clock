@@ -2,7 +2,7 @@
 
 This repository contains the code behind “Eastern Clock”, a Twitter-based sculpture by Jason McIntosh (jmac@jmac.org).
 
-You can view the artwork here: [@EasternClock](http://twitter.com/EasternClock).
+You can view the work here: [@EasternClock](http://twitter.com/EasternClock).
 
 ## Invoking it
 
