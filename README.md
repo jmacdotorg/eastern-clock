@@ -16,7 +16,7 @@ The referenced config file must contain four Twitter API keys and access tokens,
 
 This script requires Perl, as well as the following Perl modules, all of which may be easily had via CPAN:
 
-* [Net::Twitter](https://metacpan.org/pod/Net::Twitter)
+* [Net::Twitter](https://metacpan.org/pod/Net::Twitter) (version 4.01007 or later)
 * [DateTime::Moonpig](https://metacpan.org/pod/DateTime::Moonpig)
 * [Config::Tiny](https://metacpan.org/pod/Config::Tiny)
 * [Getopt::Mini](https://metacpan.org/pod/Getopt::Mini)
