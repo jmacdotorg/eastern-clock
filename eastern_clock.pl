@@ -10,6 +10,7 @@ use Getopt::Mini;
 
 use Readonly;
 Readonly my $TIME_ZONE => 'US/Eastern';
+Readonly my $LWP_TIMEOUT => 10;
 
 my $config_file = $ARGV{ config } 
     or die "Usage: $0 --config=path/to/config.file\n";
@@ -21,6 +22,7 @@ my $twitter = Net::Twitter->new(
     traits   => [qw/API::RESTv1_1/],
     ssl => 1,
     %{ $twitter_config->{ _ } },
+    useragent_args => { timeout => $LWP_TIMEOUT },
 );
 
 # Delete all extant tweets. (This should be only one tweet, at any given time, but one
